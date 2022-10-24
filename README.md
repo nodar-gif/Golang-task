@@ -1,4 +1,8 @@
 # Golang-task
+before_script:
+  cmds:
+    - cd $GOPATH/src/$Hello  
+--------------------------------
 task helloworld
 Response: Hello World from Task!
 
